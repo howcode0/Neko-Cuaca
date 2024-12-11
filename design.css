@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background: linear-gradient(to right, #00b7ff,#FFFFC7);
+}
+
+/* serch bar */
+input {
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+    border: none;
+    border-color: #EA8D8D;
+    border-radius: 15px;
+}
+
+/* button cari */
+button {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    list-style: none;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #D8B5FF, #1eae98);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* hasil dari output */
+.result {
+    margin-top: 20px;
+}
+
+.judul {
+    color: white;
+}
