@@ -24,7 +24,7 @@ function getWeather() {
                 const cloudiness = data.clouds.all; // Persentase awan
 
                 document.getElementById('weatherResult').innerHTML = `
-                    <p id="temperature" >Suhu: ${temperature}°F</p>  
+                    <p id="temperature" >Suhu: ${temperature}°C</p>  
                     <p id="kondisi">Kondisi: ${description}</p>
                     <p id="kelembapan">Kelembapan: ${humidity}%</p>
                     <p id="angin">Kecepatan Angin: ${windSpeed} m/s</p>
