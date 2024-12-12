@@ -32,16 +32,14 @@ button {
 /* hasil dari output */
 .result {
     margin-top: 20px;
-}
-
-.judul {
-    color: white;
-}
-
-.temperature {
     color: white;
     font-weight: bold;
     background-color: gray;
     border-radius: 10px;
     opacity: 1.5;
 }
+
+.judul {
+    color: white;
+}
+
